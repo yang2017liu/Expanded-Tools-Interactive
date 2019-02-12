@@ -17,10 +17,21 @@ h1{
 }
 
 .main{
-	width: 80%;
-	margin: 100px auto;
-	padding: 50px;
+  display: flex;
+  flex-wrap:wrap;
+  align-content: stretch;
+  height: 100%;
 }
+.photo{
+	width: 50%;
+	height: 50%;
+}
+img{
+	width: 100%;
+	max-height: 850px;
+}
+
+	
 
 
 ul{
