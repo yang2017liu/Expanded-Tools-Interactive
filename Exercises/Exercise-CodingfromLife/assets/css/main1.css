@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #7a7373;
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: #676869;
+  position: relative;
+  border: solid black 5px;
+}
+.desk {
+  width: 890px;
+  height: 250px;
+  margin: 100px auto;
+  background: #cecece;
+  position: absolute;
+  top:196px;
+  
+}
+
+.book1 {
+    width: 27px;
+    height: 30px;
+    background: #fdffe3;
+    border: 1px solid #435c95;
+    position: absolute;
+    top: 21px;
+    left: 597px;
+    border-radius: 5px;
+    transform: skewy(-61deg);
+    box-shadow: 0px 7px 10px #c2c2c2;
+}
+
+.book2 {
+    width: 150px;
+    height: 50px;
+    background: #465a86;
+    position: absolute;
+    top: 0px;
+    left: 460px;
+    border-radius: 5px;
+    transform: skew(-30deg);
+      box-shadow: 0px 9px 7px #514f4f;
+}
+.book3 {
+    width: 152px;
+    height: 25px;
+    background: #2f4867;
+    border: 1px solid #435c95;
+    position: absolute;
+   
+    top: 48px;
+    left: 446px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px #888686;
+}
+
+.holder1 {
+    width: 170px;
+    height: 53px;
+    background: #b3b5b2;
+    opacity: 0.8;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+    border-radius: 0 0 100% 100%;
+    box-shadow: 0px 4px 10px #484747;
+    opacity: 0.2;
+  }
+  .holder2 {
+    width: 170px;
+    height: 50px;
+    background: #989d96;
+    position: absolute;
+    top: 57px;
+    left: 340px;
+    border-radius: 100%;
+    opacity: 0.2;
+}
+.holder3 {
+    width: 170px;
+    height: 50px;
+    background: #636561;
+    opacity: 0.6;
+    position: absolute;
+    top: 57px;
+    left: 340px;
+    transform: scale(0.8);
+    border: 3px solid #6d6868;
+    border-radius: 100%;
+    opacity: 0.2;
+}
+.candle1 {
+    width: 60px;
+    height: 145px;
+    background: #f5f1f1;
+    position: absolute;
+    top: -50px;
+    left: 391px;
+    border-radius: 20% 20% 20% 20%;
+}
+
+.candle2 {
+    width: 70px;
+    height: 70px;
+    background: #f5f1f1;
+    position: absolute;
+    top: 20px;
+    left: 427px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #c4c4c4;
+}
+.candle3 {
+    width: 70px;
+    height: 70px;
+    background: #f5f1f1;
+    position: absolute;
+    top: 20px;
+    left: 330px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #c4c4c4;
+}
+.candle4 {
+    width: 70px;
+    height: 70px;
+    background: #f5f1f1;
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #c4c4c4;
+}
+.candle5 {
+    width: 70px;
+    height: 70px;
+    background: #f5f1f1;
+    position: absolute;
+    top: -30px;
+    left: 350px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #c4c4c4;
+}
+.candle6 {
+    width: 70px;
+    height: 70px;
+    background: #f5f1f1;
+    position: absolute;
+    top: -30px;
+    left: 420px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #c4c4c4;
+}
+.fire{
+  width:30px;
+  height:40px;
+  background: #e1c73c;
+  border-radius: 100%;
+    position: absolute;
+    top: -100px;
+    left: 405px;
+
+}
+
+ .fire2{
+      width:10px;
+  height:20px;
+  background: #e1a43c;
+  border-radius: 100%;
+ margin-top: -80px;
+    margin-left: 415px;
+    animation: shake 1.92s cubic-bezier(0.69, 0.22, 0.57, 1) both;
+    animation-iteration-count: infinite;
+ }
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.cats1{
+
+   width: 50px;
+      height: 60px;
+      transform: skew(20deg);
+      background: #fbfbde;
+      position:absolute;
+      top: -50px;
+      left:480px;
+}
+.cats2{
+    width: 80px;
+      height: 55px;
+      background:  #fbfbde;
+      border-radius: 100px / 50px;
+      position:absolute;
+      left:490px;
+      top:-20px;
+
+}
+
+.cats3{
+  width: 50px;
+    height: 33px;
+    background: #fbfbde;
+    position: absolute;
+    top:-70px;
+    left: 470px;
+    border-radius:100% 100% 100% 100%;
+    
+}
+.cats4{
+  width: 40px;
+    height: 23px;
+    background: #d8d8c7;
+    position: absolute;
+    top:-67px;
+    left: 475px;
+    border-radius:100% 100% 100% 100%;
+    
+}
