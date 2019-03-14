@@ -33,10 +33,6 @@ body{
   width: 100px;
   height: 90px;
 }
-
-
-
-/*
 .circle:before,
 .circle:after{
 
@@ -58,7 +54,6 @@ body{
     transform: rotate(45deg);
     transform-origin:100%100%;
   }
-*/
 
 .circle2{
   width: 100px;
@@ -71,9 +66,4 @@ body{
   background-color:rgb(255,255,255);
   padding:0px;
 
-}
-
-div.circle2:hover{
-  width: 10px;
-  height: 10px;
 }
