@@ -29,7 +29,7 @@ var layer_list =[
   {
      'image':background,
      'src':'./images/layer_1_1.png',
-     'z_index':-2.25,
+     'z_index':0,
      'position':{x:0, y:0},
      'blend': null,
      'opacity':1
