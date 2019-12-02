@@ -44,7 +44,7 @@ body{
     aligh-items:center;
     justify-content:center;
     line-height:40px;
-    transition:0.25s ease all 0.75s;
+    transition:0.5s ease all 0.75s;
     color:#999;
     tranform:translateZ(50px);
 }
